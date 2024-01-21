@@ -1,7 +1,7 @@
 # Prerequisites
 ###
 - Unzip the zip file
-- If Docker Hub is not installed on your system install it from `https://hub.docker.com/`.
+- If Docker Hub is not installed on your system install it from (https://hub.docker.com/).
 
 ## Building
 Open the terminal/ powershell at the code repository folder.
@@ -21,4 +21,4 @@ docker run -p 8080:8080 index
 and navigate to `http://localhost:8080`.
 
 ### Deployed Web Application Link:
-`https://dt-frontend-assessment.vercel.app/`
+(https://dt-frontend-assessment.vercel.app/)
