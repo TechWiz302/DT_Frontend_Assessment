@@ -1,0 +1,34 @@
+.pieChart {
+  width: 60% !important;
+}
+.pieChart canvas {
+  height: 260px !important;
+}
+
+.pieContent {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+
+.doughnutChart{
+    display: flex;
+}
+
+.doughnutChartCard {
+    height: 100% !important;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .doughnutChart{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .pieContent{
+        padding: 5px;
+    }
+}

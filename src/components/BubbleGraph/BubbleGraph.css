@@ -1,0 +1,103 @@
+.bubble-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bubble-heading span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filterBox {
+  display: flex;
+  margin-left: auto !important;
+  border: 1px solid #ccc;
+  margin: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.filterBox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filterItems {
+  display: inline-block;
+  font-size: small;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.filterItems.active {
+  color: #009bd2;
+}
+
+.filterItems:hover {
+  color: #009bd2;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterButton {
+  width: 110px;
+}
+.filterButton button {
+  width: 100%;
+  background-color: #009bd2;
+  color: #fff;
+  padding: 0.1rem 0.6rem;
+  border-radius: 2px;
+}
+.filterButton span {
+  font-size: 15px;
+  padding: 0 12px;
+}
+
+@media (max-width: 1160px) {
+  .bubble-heading{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .filterBox {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .bubble-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .filterBox {
+    margin-left: 0 !important;
+  }
+}
+
+/* .bubbleChartCard canvas {
+  height: 250px !important;
+  width: 100% !important;
+} */
+
+/* @media (max-width: 592px) {
+  .bubbleChartCard {
+    padding: 10px !important;
+    overflow-x: auto;
+  }
+
+  .bubbleChartCard canvas {
+    height: 700px !important;
+    width: 400% !important;
+  }
+
+} */

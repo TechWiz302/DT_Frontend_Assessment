@@ -1,0 +1,83 @@
+.rnd {
+  align-items: center;
+}
+
+table {
+  font-size: small;
+}
+
+.rndTable thead {
+  background-color: #f4fafe;
+  border-color: #f4fafe;
+  border: none;
+}
+
+th {
+  padding: 8px 10px;
+  border-radius: 0;
+}
+th:nth-child(1) {
+  border-radius: 5px 0 0px 5px;
+}
+th:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+td {
+  padding-top: 1rem;
+}
+
+.tdBox {
+  padding: 10px;
+  background-color: rgb(206, 197, 30);
+  border-radius: 5px;
+}
+
+.typeColumn span {
+  width: 40px;
+  padding-left: 10px;
+}
+
+.rndTable {
+  width: 100%;
+}
+
+.score span {
+  color: rgb(39, 194, 39);
+  text-shadow: 0px 0px 10px #00cb4482;
+}
+
+.impact span {
+  color: #40bdeb;
+  text-shadow: 0 0 10px #0098cb68;
+  padding: 5px 10px;
+  background-color: #e5f4fc;
+  border-radius: 5px;
+}
+
+.rndTableContainer {
+  overflow-x: auto;
+}
+
+.typeColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .rndTableContainer {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .tableWrapper {
+    width: 200%;
+  }
+
+  .rndTable {
+    width: 100%;
+  }
+}

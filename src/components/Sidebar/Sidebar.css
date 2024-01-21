@@ -1,0 +1,151 @@
+.sidebar {
+    position: fixed;
+    z-index: 30;
+    width: 270px;
+    min-height: 100vh;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: 5px 0 10px rgba(52, 52, 52, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-image{
+    max-height: 120px;
+}
+
+.smallLogo{
+    display: none;
+}
+
+.logo-image img{
+    width: 70%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.sidebarMenu{
+    color: #737373;
+    padding-left: 25px;
+}
+
+.sidebarTitle .title{
+    margin-top: 0;
+    font-size: small;
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebarItem {
+    width: 100%;
+}
+
+
+.sidebarItem li {
+    display: flex;
+    padding: 5px 0;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarActive{
+    background-color: #E1F3FF;
+    border-radius: 10px;
+}
+
+.sidebarActive span{
+    color: black !important;
+    font-weight: 900;
+}
+
+.sidebarActive svg {
+    color: #3FC6F5;
+}
+
+.sidebarItem li span {
+    margin-left: 10px;
+}
+
+.sidebarItem li svg{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cross-icon{
+    display: none;
+}
+
+@media (max-width: 880px) {
+    .sidebar {
+        width: 100%;
+        display: block;
+        padding-right: 0;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .logo-image {
+        max-height:none;
+    }
+
+    .logo-image img{
+        width: 200px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .cross-icon {
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 15px;
+        font-size: 20px;
+    }
+
+    .sidebarMenu{
+        padding-left: 0;
+    }
+
+    .sidebarActive{
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    .sidebarActive span{
+        color: #737373 !important;
+        font-weight: normal;
+    }
+
+    .sidebarActive svg {
+        color: #737373;
+    }
+    
+    .sidebarTitle .title{
+        padding-top: 20px;
+        font-size: medium;
+    }
+
+    .sidebarItem li {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebarItem li svg{
+        padding-left: 0;
+        font-size: 25px;
+    }
+
+
+
+}

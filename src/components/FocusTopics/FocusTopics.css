@@ -1,0 +1,22 @@
+.FocusTopicContent {
+    color: #999;
+    padding-top: 10.2px;
+    font-size: small;
+}
+
+.seeAll{
+    font-size: small;
+    padding-top: 10px;
+    color: #58b0be;
+}
+
+.score-topic {
+    display: flex;
+    background-color: #0095CC;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: x-small;
+}
